@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+html {
+    font-size: 62.5%;
+    font-size: Arial, Helvetica, sans-serif;
+}
+.main-nav {
+    width: 100%;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-nav .main-nav__item {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.main-nav .main-nav__item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.main-logo {
+    margin-top: 1rem;
+    text-align: center;
+}
+.main-logo__img {
+    width: 53rem;
+    height: 25rem;
+}
+
+.main-input {
+    width: 60rem;
+    margin: 2rem auto;
+    margin-bottom: 2rem;
+}
+.main-input__container {
+    border: 0.1rem solid #e5e7ea;
+    width: 60rem;
+    height: 4rem;
+    border-radius: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-input__container input {
+    width: 50rem;
+    height: 3.8rem;
+    border: none;
+    outline: none;
+}
+.main-input:hover {
+    width: 60rem;
+    height: 4rem;
+    border-radius: 8rem;
+    box-shadow: 0rem 0.1rem 0.6rem rgb(182, 180, 180);
+    border-color: rgb(175, 175, 175);
+}
+.main-input .main-input__container .search-icon {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-image: url('https://www.pinclipart.com/picdir/big/15-157992_lens-clipart-magnifier-magnifying-glass-icon-grey-png.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.main-input .main-input__container .micro-icon {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-image: url('https://www.pinclipart.com/picdir/big/32-322562_open-google-microphone-icon-clipart.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.6rem;
+    height: 1.6rem;
+    cursor: pointer;
+}
+.main-buttons {
+    width: 53rem;
+    height: 13rem;
+    margin: 0 auto;
+}
+.main-buttons .button {
+    display: inline;
+}
+.main-buttons .button button {
+    width: 16rem;
+    height: 3rem;
+    margin-right: 1rem;
+    border: gray;
+    color: rgb(65, 65, 65);
+    font-size: 1.4rem;
+}
+.main-buttons .button button:hover {
+    background-color: rgb(247, 244, 244);
+    border: 0.1rem solid rgb(231, 231, 231);
+    box-shadow: 0rem 0.1rem 0.2rem rgb(158, 157, 157);
+    border-radius: 0.2rem;
+}
+
+.main-footer .country {
+    font-size: 1.8rem;
+    height: 4rem;
+    color: rgb(110, 110, 110);
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center
+}
+.main-footer .country span {
+    margin-left: 2.4rem;
+}
+.footer {
+    font-size: 1.8rem;
+    height: 4rem;
+    color: rgb(110, 110, 110);
+    background-color: #f2f2f2;
+}
+.footer-left__item {
+    display: inline-block;
+    margin-left: 2.4rem;
+}
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+    background-color: aqua;
+}
+.footer-right__item {
+    display: inline-block;
+    margin: 0.4rem;
+}
