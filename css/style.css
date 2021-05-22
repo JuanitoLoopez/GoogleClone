@@ -105,33 +105,35 @@ html {
     border-radius: 0.2rem;
 }
 
-.main-footer .country {
-    font-size: 1.8rem;
-    height: 4rem;
-    color: rgb(110, 110, 110);
-    background-color: #f2f2f2;
-    display: flex;
-    align-items: center
-}
-.main-footer .country span {
-    margin-left: 2.4rem;
-}
 .footer {
+    width: 100%;
+    height: 4rem; 
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
     font-size: 1.8rem;
-    height: 4rem;
-    color: rgb(110, 110, 110);
     background-color: #f2f2f2;
+    border: #dadce0;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #70757a;
+}
+.footer-left {
+    display: flex;
+    justify-content: flex-start;
 }
 .footer-left__item {
     display: inline-block;
-    margin-left: 2.4rem;
+    margin-left: 1.4rem;
 }
 .footer-right {
     display: flex;
     justify-content: flex-end;
-    background-color: aqua;
 }
 .footer-right__item {
     display: inline-block;
-    margin: 0.4rem;
+    margin-right: 1.4rem;
 }
