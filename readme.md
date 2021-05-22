@@ -8,3 +8,5 @@ I divided it into three parts Nav, Main, and Footer.
 Use Flexbox in Nav and Main, in Footer use Grid Layout to position it.
 
 The whole project was created following good practices, both responsive practices and readable code practices.
+
+You can see it by click it here! https://juanitoloopez.github.io/GoogleClone/
